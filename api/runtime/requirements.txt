@@ -9,14 +9,14 @@ attrs==20.3.0
 blessed==1.17.6
     # via inquirer
 boto3==1.18.4
-    # via -r api/runtime/requirements.in
+    # via -r requirements.in
 botocore==1.21.4
     # via
     #   boto3
     #   chalice
     #   s3transfer
 chalice==1.24.0
-    # via -r api/runtime/requirements.in
+    # via -r requirements.in
 click==7.1.2
     # via chalice
 inquirer==2.7.0
@@ -47,7 +47,7 @@ urllib3==1.26.6
     # via botocore
 wcwidth==0.2.5
     # via blessed
-wheel==0.36.2
+wheel==0.38.1
     # via chalice
 
 # The following packages are considered to be unsafe in a requirements file:
